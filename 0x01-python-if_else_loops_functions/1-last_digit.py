@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-n_digit = int(str(number)[-1])
-L_d = 0
+n_digit = abs(number) % 10
 if number < 0:
     L_d = -(n_digit)
 else:
