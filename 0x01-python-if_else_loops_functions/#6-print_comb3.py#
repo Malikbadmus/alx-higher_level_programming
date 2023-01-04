@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
-for i in range(0, 8):
+for i in range(0, 9):
     for x in range(i+1, 10):
         if i == x:
             continue
+        if i == 8 and x == 9:
+            print("{}{}
         print("{}{}".format(i, x), end = ", ")
-print("{:d}".format(89))
+print("\b\b\n",end="")
