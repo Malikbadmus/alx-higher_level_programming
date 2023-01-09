@@ -3,5 +3,6 @@
 def print_reversed_list_integer(my_list=[]):
     if my_list is None:
         return
-    for x in reversed(my_list):
+    new_list = my_list[::-1]
+    for x in (new_list):
         print("{:d}".format(x))
