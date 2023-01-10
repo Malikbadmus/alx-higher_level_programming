@@ -6,4 +6,4 @@ def no_c(my_string):
         if x == 'c' or x == 'C':
             continue
         new_str = "".join(x)
-        return (new_str)
+        print(new_str, end="")
