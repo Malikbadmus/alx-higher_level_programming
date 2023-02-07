@@ -3,3 +3,4 @@
 def read_file(filename=""):
     with open(filename, "r", encoding ="utf-8") as one:
         contents = one.read()
+        print(contents, end="")
